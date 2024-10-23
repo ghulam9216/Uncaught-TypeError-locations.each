@@ -23,10 +23,15 @@ vendor/paypal/module-braintree-core/view/adminhtml/web/js/system.js
 
 Deploy static content (if necessary):
 php bin/magento setup:upgrade
+
 php bin/magento setup:static-content:deploy -f
+
 php bin/magento setup:di:compile
+
 php bin/magento cache:clean
+
 php bin/magento cache:flush
+
 
 # Compatibility
 This fix is specifically form Magento 2.4.5. It may not be applicable to other versions of Magento without further testing.
