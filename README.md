@@ -21,7 +21,7 @@ vendor/paypal/module-braintree-core/view/adminhtml/web/js/system.js
 
 **After this run the below commands**
 
-Deploy static content (if necessary):
+
 php bin/magento setup:upgrade
 
 php bin/magento setup:static-content:deploy -f
