@@ -12,11 +12,12 @@ vendor/paypal/module-braintree-core/view/adminhtml/web/js/system.js
 # Which Changes need in code
 
 **Find this line of code**
+   
    locations.each(function (loc) {
 
  **Replace by below code**
 
-    $.each(locations, function (loc) {
+   $.each(locations, function (loc) {
 
 **After this run the below commands**
 
